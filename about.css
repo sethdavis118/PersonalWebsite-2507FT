@@ -1,6 +1,12 @@
 h2 {
   margin-bottom: 2rem;
-  border-bottom: solid;
+  border-bottom: dotted;
+
+  background-color: inherit;
+}
+
+h3 {
+  background-color: inherit;
 }
 
 .information {
@@ -8,9 +14,11 @@ h2 {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 20% 80%;
 
+  background-color: inherit;
+
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: solid;
+  border-bottom: dotted;
 
   img {
     grid-column: 1/2;
@@ -21,6 +29,8 @@ h2 {
     grid-column: 2/3;
     grid-row: 2/3;
     padding-left: 1rem;
+
+    background-color: inherit;
   }
 }
 

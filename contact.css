@@ -1,12 +1,19 @@
+body {
+  min-height: 100vh;
+}
+
 form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
   gap: 1em;
+
+  background-color: inherit;
 }
 
 label {
   font-weight: bold;
+  background-color: inherit;
 }
 
 input,
@@ -30,9 +37,11 @@ button {
 h3 {
   margin-top: 1rem;
   margin-bottom: 5rem;
+
+  background-color: inherit;
 }
 
-@media (width < 600px) {
+@media (width < 700px) {
   header {
     gap: 1rem;
   }
