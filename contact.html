@@ -10,12 +10,18 @@
   <body>
     <header>
       <h1>Contact</h1>
-      <a href="home.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
+      <div class="page_links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </header>
     <main>
+      <h3>
+        Contact me here. Please add your information so I can respond if I feel
+        so inclined.
+      </h3>
       <form>
         <label for="name">Name</label>
         <input type="text" id="name" name="name" />
@@ -26,7 +32,7 @@
         <!--I'm getting errors about id. Is that a problem?-->
         <br />
         <label for="message">Message</label>
-        <textarea name="message" id="message" rows="3"></textarea>
+        <textarea name="message" id="message" rows="8"></textarea>
         <!--I'm getting errors about id. Is that a problem?-->
         <br />
         <input type="submit" value="Submit" />

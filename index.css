@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+
+  background-color: aliceblue;
+}
+
+body {
+  height: 100vh;
+  width: 80%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.page_links {
+  display: flex;
+  gap: 2ch;
+}

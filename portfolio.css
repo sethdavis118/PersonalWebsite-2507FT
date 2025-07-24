@@ -1,0 +1,50 @@
+h2 {
+  margin-bottom: 2rem;
+  border-bottom: solid;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 20% 80%;
+
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: solid;
+
+  img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-left: 1rem;
+  }
+}
+
+/* img {
+  width: 175px;
+  border-radius: 50%;
+} */
+
+@media (width < 700px) {
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  main img {
+    width: 50%;
+    float: center;
+    /* border-radius: 50%;  */
+    margin: 10px 0 10px 10px;
+  }
+
+  header {
+    gap: 1rem;
+  }
+}

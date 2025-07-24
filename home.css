@@ -1,0 +1,48 @@
+#name {
+  padding-top: 1rem;
+}
+
+.top-section {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+main img {
+  width: 300px;
+  float: right;
+  border-radius: 50%;
+  margin: 10px 0 10px 10px;
+}
+
+#explainer {
+  margin-top: 5rem;
+}
+
+@media (width < 700px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .top-section {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  main img {
+    width: 50%;
+    float: center;
+    border-radius: 50%;
+    margin: 10px 0 10px 10px;
+  }
+}
+
+h3 {
+  margin-left: 0;
+}
